@@ -1,9 +1,11 @@
 \ProvidesClass{Hausarbeit}
-\LoadClass[12pt,a4paper]{article}
+\LoadClass[12pt,a4paper,titlepage]{article}
 
 % Links
 % (https://jevon.org/wiki/Removing_the_Coloured_Boxes_around_Hyperref_links_in_Latex)
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\usepackage{graphicx}
+\usepackage[ngerman]{babel} 
 
 % Lorem ipsum
 \usepackage{blindtext}
@@ -34,3 +36,32 @@
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
 
+% Title Page
+\usepackage[export]{adjustbox}
+\newcommand{\lehrstuhl}[3]{
+    \noindent\begin{minipage}{0.5\linewidth}
+        {#1}\\
+        {#2}\\
+        {#3}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}{0.4\linewidth}
+        \flushright
+        \includegraphics[width=5cm, valign=t]{img/logo.png}
+    \end{minipage}
+}
+
+
+\newcommand{\veranstaltung}[3]{
+\begin{center}
+    {#1}\\
+    {#2}\\
+    {#3}
+\end{center}
+}
+
+\newcommand{\titel}[2]{
+\begin{center}
+    \huge{#1}\\[1cm]
+\end{center}
+}
