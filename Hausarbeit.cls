@@ -17,21 +17,13 @@
 % Zeilenabstand eineinhalb
 \usepackage[onehalfspacing]{setspace}
 
-% Font (Times New Roman/Arial/Calibri)
+% Font (times_new_roman/arial/calibri)
 % (https://tex.stackexchange.com/questions/96993/how-to-use-the-calibri-font)
 \usepackage{fontspec}
 \setmainfont[Path=./fonts/calibri/,
-    BoldItalicFont=calibriz.ttf,
-    BoldFont      =calibrib.ttf,
-    ItalicFont    =calibrii.ttf]{calibri.ttf}
-%\setmainfont[Path=./fonts/arial/,
-%    BoldItalicFont=ArialBoldItalic.ttf,
-%    BoldFont      =ArialBold.ttf,
-%    ItalicFont    =ArialItalic.ttf]{Arial.ttf}
-%\setmainfont[Path=./fonts/TimesNewRoman/,
-%    BoldItalicFont=TimesNewRomanBoldItalic.ttf,
-%    BoldFont      =TimesNewRomanBold.ttf,
-%    ItalicFont    =TimesNewRomanItalic.ttf]{TimesNewRoman.ttf}
+    BoldItalicFont=bold_italic.ttf,
+    BoldFont      =bold.ttf,
+    ItalicFont    =italic.ttf]{regular.ttf}
 
 % Page Number right
 % (https://tex.stackexchange.com/questions/153167/how-to-set-page-number-at-right-footer)
