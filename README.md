@@ -1,4 +1,4 @@
-# Uni Passaz LaTeX Template
+# Uni Passau LaTeX Template
 
 Latex Template für Hausarbeiten am Lehrstuhl für Politikwissenschaf an der Uni Passau
 
