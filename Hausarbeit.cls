@@ -6,9 +6,14 @@
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
 \usepackage{graphicx}
 \usepackage[ngerman]{babel} 
+\usepackage{titling}
 
 % Lorem ipsum
 \usepackage{blindtext}
+
+% Kein Einrücken sondern abstand
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
 
 % Vorgaben Lehrstuhl für Politikwissenschaft
 % https://www.phil.uni-passau.de/fileadmin/dokumente/fakultaeten/phil/lehrstuehle/gellner/Hinweise_Hausarbeit_Lehrstuhl_Gellner_Stand_10-2019.pdf
@@ -47,7 +52,7 @@
     \hfill%
     \begin{minipage}{0.4\linewidth}
         \flushright
-        \includegraphics[width=5cm, valign=t]{img/logo.png}
+        \includegraphics[width=5.5cm, valign=t]{img/logo.png}
     \end{minipage}
 }
 
