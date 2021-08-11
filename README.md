@@ -2,8 +2,13 @@
 
 Latex Template für Hausarbeiten am Lehrstuhl für Politikwissenschaft an der Uni Passau
 
+## Getting started
+
+Zum Starten als erstes Autor und Titel der Arbeit in der Hausarbeit.tex Datei eingeben. Als nächstes alle weiteren Daten in chapters/Titelblatt.tex ausfüllen. Jetzt nur noch die Schriftarten hinzufügen (siehe Fonts), dann kannst du auch schon das erste Kapitel schreiben!
+
 ## Kapitel
-Einzelne Kapitel kannst du im ordner ```/chapters``` als .tex Datei anlegen, und über ```\include{chapters/KapitelName.tex}``` in Hausarbeit.tex importieren.
+
+Einzelne Kapitel kannst du im ordner `/chapters` als .tex Datei anlegen, und über `\include{chapters/KapitelName.tex}` in Hausarbeit.tex importieren.
 
 ## Fonts
 
