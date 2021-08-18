@@ -1,6 +1,12 @@
 \ProvidesClass{Hausarbeit}
 \LoadClass[12pt,a4paper,titlepage]{article}
 
+% General
+\usepackage{csquotes}
+
+% Citations
+\usepackage[backend=biber,style=apa]{biblatex}
+
 % Links
 % (https://jevon.org/wiki/Removing_the_Coloured_Boxes_around_Hyperref_links_in_Latex)
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}

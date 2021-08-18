@@ -3,6 +3,12 @@
 *.out
 *.synctex.gz
 *.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.bcf
+*.run.xml
 
 fonts/*
 
