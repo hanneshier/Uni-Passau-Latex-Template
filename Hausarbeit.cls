@@ -26,10 +26,12 @@
 \widowpenalty=10000
 \displaywidowpenalty=10000
 
+% Satz
+
 % Vorgaben Lehrstuhl für Politikwissenschaft
 % https://www.phil.uni-passau.de/fileadmin/dokumente/fakultaeten/phil/lehrstuehle/gellner/Hinweise_Hausarbeit_Lehrstuhl_Gellner_Stand_10-2019.pdf
 
-% Margins
+% Abstände
 \usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 
 % Zeilenabstand eineinhalb
@@ -43,7 +45,7 @@
     BoldFont      =bold.ttf,
     ItalicFont    =italic.ttf]{regular.ttf}
 
-% Page Number right
+% Setenzahl rechts
 % (https://tex.stackexchange.com/questions/153167/how-to-set-page-number-at-right-footer)
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -52,7 +54,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
 
-% Title Page
+% Titelseite
 \usepackage[export]{adjustbox}
 \newcommand{\lehrstuhl}[3]{
     \noindent\begin{minipage}{0.5\linewidth}
