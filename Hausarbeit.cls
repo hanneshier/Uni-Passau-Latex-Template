@@ -26,6 +26,9 @@
 \widowpenalty=10000
 \displaywidowpenalty=10000
 
+% overfull \hbox vermeiden 
+\setlength{\emergencystretch}{1em}
+
 % Satz
 
 % Vorgaben Lehrstuhl für Politikwissenschaft
