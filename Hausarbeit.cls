@@ -21,6 +21,11 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
 
+% Hurenkind und Schusterjunge verhindern
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
 % Vorgaben Lehrstuhl für Politikwissenschaft
 % https://www.phil.uni-passau.de/fileadmin/dokumente/fakultaeten/phil/lehrstuehle/gellner/Hinweise_Hausarbeit_Lehrstuhl_Gellner_Stand_10-2019.pdf
 
