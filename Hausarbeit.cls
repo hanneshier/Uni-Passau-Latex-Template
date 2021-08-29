@@ -20,6 +20,8 @@
 % Kein Einrücken sondern abstand
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
+% Für kompakte aufzählungen mit compactenum
+\usepackage{paralist} 
 
 % Hurenkind und Schusterjunge verhindern
 \clubpenalty=10000
