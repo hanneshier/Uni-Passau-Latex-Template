@@ -1,6 +1,6 @@
 # Uni Passau LaTeX Template
 
-Latex Template für Hausarbeiten am Lehrstuhl für Politikwissenschaft an der Universität Passau. Das Template folgt den [Vorgaben des Lehrstuhls](https://www.phil.uni-passau.de/politikwissenschaft/studium-und-lehre/hinweise-zu-hausarbeiten/).
+Latex Template für Hausarbeiten am Lehrstuhl für Politikwissenschaft an der Universität Passau. Das Template folgt den [Vorgaben des Lehrstuhls](https://www.phil.uni-passau.de/politikwissenschaft/studium-und-lehre/haus-und-abschlussarbeiten/).
 
 ## Getting started
 
