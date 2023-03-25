@@ -59,6 +59,9 @@
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
 
+% Fußnoten immer unten auf der Seite
+\usepackage[bottom]{footmisc}
+
 % Titelseite
 \usepackage[export]{adjustbox}
 \newcommand{\lehrstuhl}[3]{
