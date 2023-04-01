@@ -17,40 +17,57 @@
 % Lorem ipsum
 \usepackage{blindtext}
 
-% Kein Einrücken sondern abstand
+% Use Paragraph spacing indentation
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
-% Für kompakte aufzählungen mit compactenum
+% Use compact lists with compactenum
 \usepackage{paralist} 
 
-% Hurenkind und Schusterjunge verhindern
+% Avoid Orphans and Widows
 \clubpenalty=10000
 \widowpenalty=10000
 \displaywidowpenalty=10000
 
-% overfull \hbox vermeiden 
+% avoid overfull \hbox  
 \setlength{\emergencystretch}{1em}
 
-% Satz
-
-% Vorgaben Lehrstuhl für Politikwissenschaft
+% Typography
+% Guidelines Lehrstuhl für Politikwissenschaft
 % https://www.phil.uni-passau.de/fileadmin/dokumente/fakultaeten/phil/lehrstuehle/gellner/Hinweise_Hausarbeit_Lehrstuhl_Gellner_Stand_10-2019.pdf
 
-% Abstände
+% Margins
 \usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 
-% Zeilenabstand eineinhalb
+% Line Spacing
 \usepackage[onehalfspacing]{setspace}
+
+% Fonts
+% Uncomment the following line to use a Times New Roman Alternative
+% \usepackage{times}
+
+% Uncomment the following two lines to use an Arial Alternative
+% \usepackage{times}
+% \renewcommand{\familydefault}{\sfdefault}
+
+% Uncomment one of the two following lines to use a Calibri Alternative
+% \usepackage[sfdefault]{carlito}
+\usepackage[sfdefault]{roboto}
+
+\usepackage[T1]{fontenc}
+
+% Alternatively, you can load ttf fonts from the /fonts folder
+% IMPORTANT: you need to use lualatex to compile the document
+% You might want to disable \usepackage[T1]{fontenc} above
 
 % Font (times_new_roman/arial/calibri)
 % (https://tex.stackexchange.com/questions/96993/how-to-use-the-calibri-font)
-\usepackage{fontspec}
-\setmainfont[Path=./fonts/calibri/,
-    BoldItalicFont=bold_italic.ttf,
-    BoldFont      =bold.ttf,
-    ItalicFont    =italic.ttf]{regular.ttf}
+% \usepackage{fontspec}
+% \setmainfont[Path=./fonts/calibri/,
+%     BoldItalicFont=bold_italic.ttf,
+%     BoldFont      =bold.ttf,
+%     ItalicFont    =italic.ttf]{regular.ttf}
 
-% Setenzahl rechts
+% Page numbers right side
 % (https://tex.stackexchange.com/questions/153167/how-to-set-page-number-at-right-footer)
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -59,10 +76,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
 
-% Fußnoten immer unten auf der Seite
-\usepackage[bottom]{footmisc}
-
-% Titelseite
+% Title Page
 \usepackage[export]{adjustbox}
 \newcommand{\lehrstuhl}[3]{
     \noindent\begin{minipage}{0.5\linewidth}
