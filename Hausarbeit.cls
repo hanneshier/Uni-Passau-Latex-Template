@@ -33,7 +33,6 @@
 
 % Typography
 % Guidelines Lehrstuhl für Politikwissenschaft
-% https://www.phil.uni-passau.de/fileadmin/dokumente/fakultaeten/phil/lehrstuehle/gellner/Hinweise_Hausarbeit_Lehrstuhl_Gellner_Stand_10-2019.pdf
 
 % Margins
 \usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
