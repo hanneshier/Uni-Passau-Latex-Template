@@ -86,7 +86,7 @@
     \hfill%
     \begin{minipage}{0.4\linewidth}
         \flushright
-        \includegraphics[width=5.5cm, valign=t]{img/logo.png}
+        \includegraphics[width=5.5cm, valign=t]{img/logo-sobi.png}
     \end{minipage}
 }
 
